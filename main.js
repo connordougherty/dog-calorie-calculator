@@ -48,6 +48,6 @@ function calculate() {
             break; 
     }
 
-    caloricNeeds.innerHTML = Math.round(caloriesPerDay);
+    caloricNeeds.innerHTML =  '<strong>' + Math.round(caloriesPerDay) + '</strong>' + ' calories per day';
 }
 

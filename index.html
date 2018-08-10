@@ -7,13 +7,14 @@
     <title>Dog Calorie Calculator</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="hero is-fullheight">
+    <section class="hero is-fullheight has-background-image">
         <div class="hero-body">
-            <div class="container">
+            <div class="container calculator">
                 <div class="columns">
-                    <div class="column is-half is-offset-one-quarter">
+                    <div class="column is-two-fifths">
                         <h1 class="title">Dog Calorie Calculator</h1>
 
                         <form id="form">
@@ -61,16 +62,13 @@
 
                         <hr>
         
-                        <h2 class="title is-5 has-text-weight-normal">Calories per day: <span class="has-text-weight-bold" id="caloric-needs"></span></h2>
+                        <h2 class="subtitle is-4" id="caloric-needs"></h2>
                     </div>
                 </div>
                 
             </div>
         </div>
     </section>
-    
-
-    
     
     <script src="main.js"></script>
 </body>
