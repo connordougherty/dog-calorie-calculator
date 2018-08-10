@@ -18,8 +18,11 @@
 
                         <form id="form">
                             <div class="field">
-                                <label class="label">Weight</label>
-                                <input class="input" type="number" id="weight-input">
+                                <div class="control">
+                                    <label class="label">Weight</label>
+                                    <input class="input" type="number" id="weight-input">
+                                </div>
+                                
 
                                 <div class="control">
                                     <label class="radio">
@@ -32,6 +35,24 @@
                                     </label>
                                 </div>
                             </div>
+
+                            <div class="field">
+                                <div class="control">
+                                    <label class="label">Daily energy needs</label>
+                                    <div class="select">
+                                        <select id="daily-energy-needs">
+                                            <option>Neutered adult</option>
+                                            <option>Intact adult</option>
+                                            <option>Inactive/obese prone</option>
+                                            <option>Weight loss</option>
+                                            <option>Weight gain</option>
+                                            <option>Active, working dogs</option>
+                                            <option>Puppy 0-4 months</option>
+                                            <option>Puppy 4 months to adult</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
                             
                             <div class="control">
                                 <button class="button is-info">Submit</button>
@@ -40,7 +61,7 @@
 
                         <hr>
         
-                        <h2 class="subtitle">Resting Energy Requirements: <span id="caloric-needs"></span></h2>
+                        <h2 class="subtitle">Calories/day: <span id="caloric-needs"></span></h2>
                     </div>
                 </div>
                 
