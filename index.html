@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dog Calorie Calculator</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
+</head>
+<body>
+    <section class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-half is-offset-one-quarter">
+                        <h1 class="title">Dog Calorie Calculator</h1>
+
+                        <form id="form">
+                            <div class="field">
+                                <label class="label">Weight</label>
+                                <input class="input" type="number" id="weight-input">
+
+                                <div class="control">
+                                    <label class="radio">
+                                        <input type="radio" id="pound" name="unit" checked>
+                                        Pounds
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" id="kilogram" name="unit">
+                                        Kilograms
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="control">
+                                <button class="button is-info">Submit</button>
+                            </div>
+                        </form>
+
+                        <hr>
+        
+                        <h2 class="subtitle">Resting Energy Requirements: <span id="caloric-needs"></span></h2>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    
+    
+    <script src="main.js"></script>
+</body>
+</html>
