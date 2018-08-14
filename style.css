@@ -1,4 +1,5 @@
 .has-background-image {
+    background-color: #F5F8FD;
     background-image: url("images/background.jpg");
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -7,10 +8,10 @@
 
 @media only screen and (max-width: 768px) {
     .has-background-image {
-        background-image: url("images/background-mobile.jpg");
+        background-image: url("images/background.jpg");
         background-repeat: no-repeat;
         background-position: center bottom;
-        background-size: auto 100%;
+        background-size: auto 70%;
     }
     
     .calculator {
